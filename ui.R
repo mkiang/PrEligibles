@@ -15,12 +15,17 @@ shinyUI(fluidPage(
                p("This was made in a rush and as a (half) joke for my 
                     single friends. It probably has bugs. 
                  Full code can be found on my  ", 
-                 a("GitHub.", href = "https://github.com/mkiang"), 
+                 a("GitHub.", href = "https://github.com/mkiang/PrEligibles"), 
                  "I haven't debugged any of this and it's not meant to be 
                     taken seriously. 
                  It was inspired by ", 
                  a("this Business Insider post.", 
                    href = "http://www.businessinsider.com/highly-eligible-singles-2015-2"), 
+                 p("The waterfall plot is made to be read left to right. It
+                   starts with the entire US population and shows each section
+                   disqualified until the final column, which shows the number
+                   of people who meet all requirements. Code came from James
+                   Keirstead (link below)."),
                  p("Note about the data: this comes from the ACS 1% sample. 
                     These data will probably slightly underestimate 
                    very rare populations."
