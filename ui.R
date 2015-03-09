@@ -100,7 +100,7 @@ shinyUI(fluidPage(
         column(8, wellPanel(
             h3("Results"), 
             tableOutput('table'), 
-            plotOutput('plot', height = "700px")
+            plotOutput('plot', height = "500px")
         ))), 
     fluidRow(
         column(8,

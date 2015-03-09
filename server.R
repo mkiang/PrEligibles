@@ -101,7 +101,7 @@ shinyServer(function(input, output) {
                                 "Met All Reqs")
         
         p1 <- waterfall(x, offset = .2)
-        p1 + theme_minimal() + labs(y = "People (in millions)", x = "") + 
+        p1 + theme_minimal() + labs(y = "People (in 100 millions)", x = "") + 
             theme(legend.position = "none", 
                   axis.text.x = element_text(angle = 45, hjust = 1)) + 
             scale_y_continuous(breaks = c(0, 1e8, 2e8, 3e8), 

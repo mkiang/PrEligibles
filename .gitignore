@@ -44,3 +44,4 @@ data/usa_00001.txt
 *.Rproj
 
 .RDataTmp
+.Rproj.user
